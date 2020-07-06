@@ -1,11 +1,11 @@
 var animal = 'dog';
 
-ffunction myAnimal() {
+function myAnimal() {
   // You should not need to modify this function
   return animal
 }
 
-ffunction yourAnimal(animal) {
+function yourAnimal(animal) {
   // The tests expect this function to return `animal` just like the previous function
   // However, you cannot simply modify the existing variable declared on line 1 in the global scope 
   // How can we make sure that this function
@@ -17,14 +17,14 @@ ffunction yourAnimal(animal) {
 }
 
 const two = 2
-ffunction add2(n) {
+function add2(n) {
   
   return n + two
 
   // Feel free to move things around!
 }
 
-vvar funkyFunction = function() {
+var funkyFunction = function() {
   return function() {
     return "FUNKY!"
   }
@@ -32,6 +32,6 @@ vvar funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-vvar theFunk = funkyFunction()(); 
+var theFunk = funkyFunction()(); 
 
-cconsole.log(theFunk)
+console.log(theFunk)
