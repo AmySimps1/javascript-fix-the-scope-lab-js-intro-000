@@ -1,4 +1,4 @@
-vvar animal = 'dog';
+var animal = 'dog';
 
 ffunction myAnimal() {
   // You should not need to modify this function
